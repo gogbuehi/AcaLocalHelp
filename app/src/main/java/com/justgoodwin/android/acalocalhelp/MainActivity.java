@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.justgoodwin.android.acalocalhelp.activities.DisplayLocationActivity;
+import com.justgoodwin.android.acalocalhelp.services.ApiService;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -48,10 +49,11 @@ public class MainActivity extends Activity {
                 String searchText = addressSearch.getText().toString();
                 Address location;
 
-                if(searchText.contains("")){
+                if(searchText.equals("")){
                     invalidSearchToast.show();
                 }else{
                     try {
+                        //FIXME: Needs safetey catch if search is invalid
                         location = geocoder.getFromLocationName(searchText.toString(), 1).get(0);
 
                         resultTextView.setText(
@@ -60,8 +62,10 @@ public class MainActivity extends Activity {
                                         "State: " + location.getAdminArea()
                         );
 
-                        Intent DisplayLocationIntent = new Intent(getApplicationContext(), DisplayLocationActivity.class);
-                        startActivity(DisplayLocationIntent);
+                        //Intent DisplayLocationIntent = new Intent(getApplicationContext(), DisplayLocationActivity.class);
+                        //startActivity(DisplayLocationIntent);
+                        Intent apiServiceIntent = new Intent(getApplicationContext(), ApiService.class);
+                        startService(apiServiceIntent);
                     } catch (IOException e) {
                         e.printStackTrace();
                         invalidSearchToast.show();

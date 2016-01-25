@@ -13,7 +13,6 @@ public class DisplayLocationActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
 
     }
 }

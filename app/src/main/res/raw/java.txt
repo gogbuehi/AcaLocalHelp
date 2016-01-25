@@ -1,0 +1,48 @@
+protected void getRequest(String endpoint, String[] replaceArray) {
+		RequestQueue queue = Volley.newRequestQueue(mContext);
+		JsonObjectRequest request;
+		request = new JsonObjectRequest(GET,
+				buildUrl(endpoint, replaceArray), null,
+				new ResponseListener(), new ErrorListener());
+		queue.add(request);
+	}
+
+	protected void createRequest(JSONObject createObjectJson, String endpoint) {
+		createRequest(createObjectJson, endpoint, new String[0]); // FIXME: Not
+																	// great way
+																	// to deal
+																	// with this
+	}
+
+	protected void createRequest(JSONObject createObjectJson, String endpoint,
+			String[] replaceArray) {
+		RequestQueue queue = Volley.newRequestQueue(mContext);
+		JsonObjectRequest request = new JsonObjectRequest(POST, buildUrl(
+				endpoint, replaceArray), createObjectJson,
+				new ResponseListener(), new ErrorListener());
+		queue.add(request);
+	}
+
+	public void postRequest(CloudData cd) {
+		RequestQueue queue = Volley.newRequestQueue(mContext);
+		ResponseListener rl = new ResponseListener();
+		JsonObjectRequest request = new JsonObjectRequest(POST, buildUrl(
+				cd.getEndpoint(), cd.getReplaceArray()), cd.getJson(),
+				new ResponseListener(), new ErrorListener());
+		queue.add(request);
+	}
+
+	protected void createDevice(String uuid) {
+		JSONObject createDeviceJson = new JSONObject();
+		try {
+			createDeviceJson.put("uuid", uuid);// mConfManager.getDeviceUuid());
+			createDeviceJson.put("os", "android");
+			createDeviceJson.put("os_version", Build.VERSION.RELEASE);
+			createDeviceJson.put("device_make", Build.MANUFACTURER);
+			createDeviceJson.put("device_model", Build.MODEL);
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		createRequest(createDeviceJson, REQUEST_CREATE_DEVICE);
+	}
