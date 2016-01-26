@@ -1,0 +1,2935 @@
+{"results": [
+  {
+    "id": 175102,
+    "name": "Mohamed Chareq",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "22204",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.860339,
+        "longitude": -77.099864
+      },
+      "published": true,
+      "street": ["3259 Columbia Pike"]
+    },
+    "distance": 1.7000067301211912,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "5719705921",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "mchareq@verizon.net",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": ["Spanish"],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 175100,
+      "name": "Mohamed Chareq",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180504,
+    "name": "Acronym Test Organization two",
+    "acronym": ")))))!!!!!!",
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Arlington,",
+      "state": "VA",
+      "zip": "22205",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "PARTIAL",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.882442,
+        "longitude": -77.139687
+      },
+      "published": true,
+      "street": ["1704 N George Mason Dr"]
+    },
+    "distance": 2.467276532598542,
+    "hours": {},
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages"],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 180502,
+      "name": "Acronym Test Organization two",
+      "acronym": ")))))!!!!!!",
+      "published": false
+    },
+    "additionalInformation": "",
+    "published": true
+  },
+  {
+    "id": 180500,
+    "name": "AcronymTest Organization",
+    "acronym": "T!/|@AAAA0E",
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Arlington",
+      "state": "VA",
+      "zip": "22205",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "HIDE",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.882442,
+        "longitude": -77.139687
+      },
+      "published": true,
+      "street": ["1701 N George Mason Dr"]
+    },
+    "distance": 2.467276532598542,
+    "hours": {},
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages"],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 180498,
+      "name": "AcronymTest Organization",
+      "acronym": "T!/|@AAAA0E",
+      "published": false
+    },
+    "additionalInformation": "",
+    "published": true
+  },
+  {
+    "id": 176938,
+    "name": "Jongjoon Kim",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "22003",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.836264,
+        "longitude": -77.20276
+      },
+      "published": true,
+      "street": ["4600 John Marr Drive, Unit 102"]
+    },
+    "distance": 6.736365799304307,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7036390882",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "kbpmanager@gmail.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 176936,
+      "name": "Jongjoon Kim",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 176698,
+    "name": "KimNgoc Nguyen",
+    "acronym": null,
+    "types": [
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "22031",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.86074,
+        "longitude": -77.254991
+      },
+      "published": true,
+      "street": ["8315 Lee Highway"]
+    },
+    "distance": 8.815785666216467,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7032098642",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "Kimnguyen8315@gmail.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 176696,
+      "name": "KimNgoc Nguyen",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 176294,
+    "name": "Jeffrey Pike",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "20164",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 39.016611,
+        "longitude": -77.390576
+      },
+      "published": true,
+      "street": ["46950 Jennings Farm Dr #100"]
+    },
+    "distance": 18.358407167995892,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7033424442",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "info@nvic.us",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 176292,
+      "name": "Jeffrey Pike",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 179470,
+    "name": "DENNIS SHEFSKI",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "20165",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 39.048255,
+        "longitude": -77.384643
+      },
+      "published": true,
+      "street": ["20854 Canberra Dr."]
+    },
+    "distance": 19.27436527830006,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7034216827",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "Dennis.Shefski@healthmarkets.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 179468,
+      "name": "DENNIS SHEFSKI",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180496,
+    "name": "Warren Test with Acronym",
+    "acronym": "WTWA",
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22191",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.620012,
+        "longitude": -77.26262
+      },
+      "published": true,
+      "street": ["123 Willoughby Way", "Why do I want to use this field"]
+    },
+    "distance": 20.398369834134833,
+    "hours": {
+      "mon": [
+        {
+          "startTime": "07:00:00",
+          "endTime": "15:30:00",
+          "dayOfWeek": "mon",
+          "appointmentRequired": false
+        }
+      ],
+      "tue": [
+        {
+          "startTime": "08:00:00",
+          "endTime": "16:00:00",
+          "dayOfWeek": "tue",
+          "appointmentRequired": false
+        }
+      ],
+      "wed": [
+        {
+          "startTime": "09:00:00",
+          "endTime": "16:30:00",
+          "dayOfWeek": "wed",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [
+      {
+        "phoneNumber": "6666666666",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "me@mywebsite.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [
+      {
+        "title": null,
+        "url": "http://www.mywebsite.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "languages": [],
+    "accessibilityServices": ["HIV/AIDS", "Homeless", "Deaf/hearing impaired", "Low-income"],
+    "parent": {
+      "id": 180466,
+      "name": "Filter Testing Parent QA Test",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": "Bring cheese pizza with extra cheese, no other toppings!",
+    "published": true
+  },
+  {
+    "id": 180444,
+    "name": "QA Language Filter Testing",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["3823 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {},
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages", "American Sign Language", "Greek", "French", "Italian", "Persian", "Russian", "Cantonese", "Urdu", "Arabic", "French Creole", "Gujarati", "Japanese", "Polish", "Spanish", "Vietnamese", "Mandarin", "Tagalog", "Portuguese", "Korean", "Hindi", "German", "English"],
+    "accessibilityServices": ["Low-income", "Deaf/hearing impaired", "Homebound", "Unemployed", "Substance abuse"],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180460,
+    "name": "QA Language Filter Testing Englishand Spanish",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8330 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "wed": [
+        {
+          "startTime": "07:00:00",
+          "endTime": "20:00:00",
+          "dayOfWeek": "wed",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7034443211",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages"],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180464,
+    "name": "QA Language Filter Testing Just English",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8324 Coronal Ln"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "mon": [
+        {
+          "startTime": "08:00:00",
+          "endTime": "15:00:00",
+          "dayOfWeek": "mon",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages", "English"],
+    "accessibilityServices": ["Deaf/hearing impaired", "Homebound", "Low-income", "Young adults/students"],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180462,
+    "name": "QA Language Filter Testing Just Spanish",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      }
+    ],
+    "address": {
+      "city": "Dale City",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8325 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "tue": [
+        {
+          "startTime": "09:00:00",
+          "endTime": "19:00:00",
+          "dayOfWeek": "tue",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7035551212",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages", "Spanish"],
+    "accessibilityServices": ["Seniors", "LGBT"],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180456,
+    "name": "QA Language Filter Testing Left Column Languages",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Dale City",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8319 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "thu": [
+        {
+          "startTime": "07:30:00",
+          "endTime": "17:00:00",
+          "dayOfWeek": "thu",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["American Sign Language", "French", "Greek", "Italian", "Persian", "Russian", "Urdu", "Cantonese", "Interpretation services available for other languages"],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180458,
+    "name": "QA Language Filter Testing Left Column Languages",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Dale City",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8319 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "thu": [
+        {
+          "startTime": "07:30:00",
+          "endTime": "17:00:00",
+          "dayOfWeek": "thu",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["American Sign Language", "French", "Greek", "Italian", "Persian", "Russian", "Urdu", "Cantonese", "Interpretation services available for other languages"],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180454,
+    "name": "QA Language Filter Testing Middle Column",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8318 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "fri": [
+        {
+          "startTime": "04:00:00",
+          "endTime": "06:30:00",
+          "dayOfWeek": "fri",
+          "appointmentRequired": false
+        },
+        {
+          "startTime": "09:00:00",
+          "endTime": "14:00:00",
+          "dayOfWeek": "fri",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "me@languagefilters.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [
+      {
+        "title": null,
+        "url": "http://languagefilters.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "languages": ["Interpretation services available for other languages", "Arabic", "French Creole", "Gujarati", "Japanese", "Polish", "Spanish", "Vietnamese", "Mandarin"],
+    "accessibilityServices": ["Ex-offenders", "Homeless", "Mental health", "Unemployed"],
+    "parent": {
+      "id": 180452,
+      "name": "QA Language Filter Testing Middle Column",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180446,
+    "name": "QA Language Filter Testing No Languages Selected",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8350 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "thu": [
+        {
+          "startTime": "05:30:00",
+          "endTime": "11:30:00",
+          "dayOfWeek": "thu",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": ["Deaf/hearing impaired", "Young adults/students"],
+    "parent": {
+      "id": 180442,
+      "name": "QA Language Filter Testing",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180450,
+    "name": "QA Language Filter Testing Right Colu,mn",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 16,
+        "name": "Navigator (NAV): Individuals and Families",
+        "title": "Navigator (NAV): Individuals and Families",
+        "key": "NAV_INDIVIDUALS"
+      },
+      {
+        "id": 6,
+        "name": "Navigator (NAV)",
+        "title": "Navigator (NAV)",
+        "key": "NAV"
+      },
+      {
+        "id": 17,
+        "name": "Navigator (NAV): SHOP",
+        "title": "Navigator (NAV): SHOP",
+        "key": "NAV_SHOP"
+      },
+      {
+        "id": 18,
+        "name": "In-person Assister (IPA): Individuals and Families",
+        "title": "In-person Assister (IPA): Individuals and Families",
+        "key": "IPA_INDIVIDUALS"
+      },
+      {
+        "id": 4,
+        "name": "In-person Assister (IPA)",
+        "title": "In-person Assister (IPA)",
+        "key": "IPA"
+      },
+      {
+        "id": 19,
+        "name": "In-person Assister (IPA): SHOP",
+        "title": "In-person Assister (IPA): SHOP",
+        "key": "IPA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Dale City",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["8340 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "sun": [
+        {
+          "startTime": "00:00:00",
+          "endTime": "23:30:00",
+          "dayOfWeek": "sun",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": ["Interpretation services available for other languages", "English", "German", "Hindi", "Korean", "Portuguese", "Tagalog"],
+    "accessibilityServices": ["Homebound", "Homeless", "Substance abuse", "HIV/AIDS"],
+    "parent": {
+      "id": 180448,
+      "name": "QA Language Filter Testing Right Colu,mn",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180404,
+    "name": "Warren Dale City",
+    "acronym": null,
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Dale City",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["3823 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "tue": [
+        {
+          "startTime": "07:00:00",
+          "endTime": "13:30:00",
+          "dayOfWeek": "tue",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 170946,
+      "name": "QA -- PARENT RECORD",
+      "acronym": "QANL",
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180402,
+    "name": "Warren Woodbridge",
+    "acronym": "WW",
+    "types": [
+      {
+        "id": 3,
+        "name": "CHIP",
+        "title": "CHIP",
+        "key": "CHIP"
+      },
+      {
+        "id": 12,
+        "name": "Medicaid/CHIP",
+        "title": "Medicaid/CHIP",
+        "key": "MEDICAID_CHIP"
+      },
+      {
+        "id": 14,
+        "name": "Assisters",
+        "title": "Assisters",
+        "key": "ASSISTER"
+      },
+      {
+        "id": 5,
+        "name": "Medicaid",
+        "title": "Medicaid",
+        "key": "MEDICAID"
+      },
+      {
+        "id": 7,
+        "name": "Certified Application Counselor (CAC): Individuals and Families",
+        "title": "Certified Application Counselor (CAC): Individuals and Families",
+        "key": "CAC_INDIVIDUALS"
+      },
+      {
+        "id": 2,
+        "name": "Certified Application Counselors (CAC)",
+        "title": "Certified Application Counselors (CAC)",
+        "key": "CAC"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 8,
+        "name": "Certified Application Counselor (CAC): SHOP",
+        "title": "Certified Application Counselor (CAC): SHOP",
+        "key": "CAC_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      },
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      }
+    ],
+    "address": {
+      "city": "Woodbridge",
+      "state": "VA",
+      "zip": "22193",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": false,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.642131,
+        "longitude": -77.341483
+      },
+      "published": true,
+      "street": ["3000 Corona Lane"]
+    },
+    "distance": 21.396173017899827,
+    "hours": {
+      "wed": [
+        {
+          "startTime": "08:00:00",
+          "endTime": "17:00:00",
+          "dayOfWeek": "wed",
+          "appointmentRequired": false
+        }
+      ]
+    },
+    "phoneNumbers": [],
+    "emailAddresses": [],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 170946,
+      "name": "QA -- PARENT RECORD",
+      "acronym": "QANL",
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 171438,
+    "name": "Jeremy Stern",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "20109",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.794928,
+        "longitude": -77.523287
+      },
+      "published": true,
+      "street": ["10601 Balls Ford Rd #280"]
+    },
+    "distance": 23.90843019200887,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7039691811",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "jeremy.stern@healthmarkets.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 171436,
+      "name": "Jeremy Stern",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 176418,
+    "name": "Anne Herring",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "20176",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 39.168388,
+        "longitude": -77.554088
+      },
+      "published": true,
+      "street": ["26 N King Street"]
+    },
+    "distance": 31.520734004421087,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "7037778899",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "aherring@kellyinsurance.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 176416,
+      "name": "Anne Herring",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 180302,
+    "name": "Daniel Goodwin",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      },
+      {
+        "id": 10,
+        "name": "Agents/Brokers (ABA): SHOP",
+        "title": "Agents/Brokers (ABA): SHOP",
+        "key": "ABA_SHOP"
+      },
+      {
+        "id": 13,
+        "name": "Small business",
+        "title": "Small business",
+        "key": "SMALL_BUSINESS"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "VA",
+      "zip": "22405",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 38.319929,
+        "longitude": -77.400285
+      },
+      "published": true,
+      "street": ["90 Chatham Heights Road"]
+    },
+    "distance": 42.34334621010997,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "5404791844",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "dan@goodwinsmith.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 180300,
+      "name": "Daniel Goodwin",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  },
+  {
+    "id": 176322,
+    "name": "Christina McConnell",
+    "acronym": null,
+    "types": [
+      {
+        "id": 9,
+        "name": "Agents/Brokers (ABA): Individuals and Families",
+        "title": "Agents/Brokers (ABA): Individuals and Families",
+        "key": "ABA_INDIVIDUALS"
+      },
+      {
+        "id": 1,
+        "name": "Agents/Brokers (ABA)",
+        "title": "Agents/Brokers (ABA)",
+        "key": "ABA"
+      },
+      {
+        "id": 11,
+        "name": "Myself and my family",
+        "title": "Myself and my family",
+        "key": "MYSELF_AND_FAMILY"
+      },
+      {
+        "id": 15,
+        "name": "Agents/Brokers",
+        "title": "Agents/Brokers",
+        "key": "AGENT_BROKER"
+      }
+    ],
+    "address": {
+      "city": null,
+      "state": "WV",
+      "zip": "25414",
+      "statewideService": false,
+      "comment": null,
+      "hide": false,
+      "visibility": "DISPLAY",
+      "accessibleLocation": true,
+      "walkIns": true,
+      "inPersonAssistance": true,
+      "geolocation": {
+        "latitude": 39.239969,
+        "longitude": -77.861551
+      },
+      "published": true,
+      "street": ["201 West Washington Street"]
+    },
+    "distance": 47.91858081666729,
+    "hours": {},
+    "phoneNumbers": [
+      {
+        "phoneNumber": "3047241542",
+        "extension": null,
+        "published": true,
+        "type": "MAIN"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "title": null,
+        "address": "libertycalendar@gmail.com",
+        "published": false,
+        "type": "MAIN"
+      }
+    ],
+    "websites": [],
+    "languages": [],
+    "accessibilityServices": [],
+    "parent": {
+      "id": 176320,
+      "name": "Christina McConnell",
+      "acronym": null,
+      "published": false
+    },
+    "additionalInformation": null,
+    "published": true
+  }
+], "paging": {
+  "total": 23,
+  "nextOffset": 10,
+  "previousOffset": 0,
+  "lastOffset": 19,
+  "pageSize": 23,
+  "totalPages": 3
+}}

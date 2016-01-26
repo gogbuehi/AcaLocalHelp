@@ -1,4 +1,99 @@
-protected void getRequest(String endpoint, String[] replaceArray) {
+package com.gogbuehi.android.photometa.managers;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import android.content.Context;
+import android.os.Build;
+import android.util.Log;
+
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+import com.gogbuehi.android.photometa.SharedConfig;
+import com.gogbuehi.android.photometa.data.CloudData;
+import com.gogbuehi.android.photometa.data.Marker;
+
+public class CloudManager {
+	protected int GET = 0;
+	protected int POST = 1;
+	protected int PUT = 2;
+	protected int DELETE = 3;
+
+	protected Context mContext;
+	protected String mUuid;
+	
+	public CloudManager(Context c) {
+		mContext = c;
+		mUuid = null;
+		
+	}
+
+	public CloudManager(Context c, String uuid) {
+		mContext = c;
+		mUuid = uuid;
+	}
+	
+	public String getUuid() {
+		return mUuid;
+	}
+
+	public void sendRequest() {
+		
+	}
+	
+	
+
+	protected boolean checkUuid() {
+		if (mUuid == null) {
+			getRequest(REQUEST_GET_NEW_UUID);
+			return false;
+		}
+		return true;
+	}
+	
+	private boolean mLocalRequest = true;
+	public final static String REQUEST_LOCAL_DOMAIN = "192.168.43.224:4510";
+	public final static String REQUEST_WEB_DOMAIN = "mvp-ep-01.herokuapp.com";
+
+	public final static String REQUEST_GET_NEW_UUID = "/external_devices/new.json";
+	public final static String REQUEST_CREATE_DEVICE = "/external_devices.json";
+	
+
+	protected String buildUrl(String endpoint) {
+		String domain;
+		if (mLocalRequest) {
+			domain = REQUEST_LOCAL_DOMAIN;
+		} else {
+			domain = REQUEST_WEB_DOMAIN;
+		}
+
+		return "http://" + domain + endpoint;
+	}
+
+	protected String buildUrl(String endpoint, String[] replaceArray) {
+		for (int i = 0; i < replaceArray.length; i++) {
+			endpoint = endpoint.replace("<" + (i + 1) + ">", replaceArray[i]);
+		}
+		return buildUrl(endpoint);
+	}
+	
+	protected void getRequest(String endpoint) {
+		getRequest(endpoint, new String[0]);
+	}
+	
+	protected ResponseListener getResponseListener() {
+		return new ResponseListener();
+	}
+	
+	protected ErrorListener getErrorListener() {
+		return new ErrorListener();
+	}
+	
+	protected void getRequest(String endpoint, String[] replaceArray) {
 		RequestQueue queue = Volley.newRequestQueue(mContext);
 		JsonObjectRequest request;
 		request = new JsonObjectRequest(GET,
@@ -22,7 +117,7 @@ protected void getRequest(String endpoint, String[] replaceArray) {
 				new ResponseListener(), new ErrorListener());
 		queue.add(request);
 	}
-
+	
 	public void postRequest(CloudData cd) {
 		RequestQueue queue = Volley.newRequestQueue(mContext);
 		ResponseListener rl = new ResponseListener();
@@ -46,3 +141,75 @@ protected void getRequest(String endpoint, String[] replaceArray) {
 		}
 		createRequest(createDeviceJson, REQUEST_CREATE_DEVICE);
 	}
+	
+	
+	
+	
+	private void saveUuid(String uuid) {
+		Log.d(SharedConfig.LOG_TAG, "Saving UUID: " + uuid);
+		mUuid = uuid;
+	}
+
+	protected final static int RESPONSE_NEW_UUID = 1;
+	protected final static int RESPONSE_CREATE_DEVICE = 2;
+	protected final static int RESPONSE_SHOW_DEVICE = 3;
+	protected final static int RESPONSE_CREATE_MARKER_RECORD = 4;
+	protected final static int RESPONSE_NEW_MARKER_RECORD = 5;
+	protected final static int RESPONSE_CREATE_BATCH_MARKERS = 6;
+
+	private class ResponseListener implements Response.Listener<JSONObject> {
+		private CloudData mCloudData;
+		public ResponseListener(CloudData cd) {
+			mCloudData = cd;
+		}
+		
+		@Override
+		public void onResponse(JSONObject response) {
+			Log.d(SharedConfig.LOG_TAG, "REPONSE: " + response.toString());
+			try {
+				int responseId = response.getInt("responseId");
+				switch (responseId) {
+				case RESPONSE_NEW_UUID:
+					String uuid = response.getString("uuid");
+					// Create Device
+					createDevice(uuid);
+					break;
+				case RESPONSE_CREATE_DEVICE:
+					String savedUuid = response.getString("uuid");
+					saveUuid(savedUuid);
+					getLastMarkerId();
+					syncUnsyncedRecords();
+					break;
+				case RESPONSE_SHOW_DEVICE:
+					break;
+				case RESPONSE_CREATE_MARKER_RECORD:
+					Log.d(SharedConfig.LOG_TAG, "Successfully saved marker.");
+					break;
+				case RESPONSE_NEW_MARKER_RECORD:
+					Log.d(SharedConfig.LOG_TAG,"Got last marker ID");
+					mLastDeviceMarker = response.getLong("eid");
+					
+					break;
+				case RESPONSE_CREATE_BATCH_MARKERS:
+					Log.d(SharedConfig.LOG_TAG,"Created batch markers");
+					getLastMarkerId();
+				}
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+	private class ErrorListener implements Response.ErrorListener {
+		private CloudData mCloudData;
+		public ErrorListener(CloudData cd) {
+			mCloudData = cd;
+		}
+		@Override
+		public void onErrorResponse(VolleyError error) {
+			Log.d(SharedConfig.LOG_TAG, "Error: " + error.getMessage());
+		}
+	}
+
+}

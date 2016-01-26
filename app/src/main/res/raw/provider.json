@@ -1,0 +1,153 @@
+{"result": {
+  "id": 180504,
+  "name": "Acronym Test Organization two",
+  "acronym": ")))))!!!!!!",
+  "types": [
+    {
+      "id": 3,
+      "name": "CHIP",
+      "title": "CHIP",
+      "key": "CHIP"
+    },
+    {
+      "id": 12,
+      "name": "Medicaid/CHIP",
+      "title": "Medicaid/CHIP",
+      "key": "MEDICAID_CHIP"
+    },
+    {
+      "id": 14,
+      "name": "Assisters",
+      "title": "Assisters",
+      "key": "ASSISTER"
+    },
+    {
+      "id": 5,
+      "name": "Medicaid",
+      "title": "Medicaid",
+      "key": "MEDICAID"
+    },
+    {
+      "id": 7,
+      "name": "Certified Application Counselor (CAC): Individuals and Families",
+      "title": "Certified Application Counselor (CAC): Individuals and Families",
+      "key": "CAC_INDIVIDUALS"
+    },
+    {
+      "id": 2,
+      "name": "Certified Application Counselors (CAC)",
+      "title": "Certified Application Counselors (CAC)",
+      "key": "CAC"
+    },
+    {
+      "id": 11,
+      "name": "Myself and my family",
+      "title": "Myself and my family",
+      "key": "MYSELF_AND_FAMILY"
+    },
+    {
+      "id": 8,
+      "name": "Certified Application Counselor (CAC): SHOP",
+      "title": "Certified Application Counselor (CAC): SHOP",
+      "key": "CAC_SHOP"
+    },
+    {
+      "id": 13,
+      "name": "Small business",
+      "title": "Small business",
+      "key": "SMALL_BUSINESS"
+    },
+    {
+      "id": 9,
+      "name": "Agents/Brokers (ABA): Individuals and Families",
+      "title": "Agents/Brokers (ABA): Individuals and Families",
+      "key": "ABA_INDIVIDUALS"
+    },
+    {
+      "id": 1,
+      "name": "Agents/Brokers (ABA)",
+      "title": "Agents/Brokers (ABA)",
+      "key": "ABA"
+    },
+    {
+      "id": 15,
+      "name": "Agents/Brokers",
+      "title": "Agents/Brokers",
+      "key": "AGENT_BROKER"
+    },
+    {
+      "id": 10,
+      "name": "Agents/Brokers (ABA): SHOP",
+      "title": "Agents/Brokers (ABA): SHOP",
+      "key": "ABA_SHOP"
+    },
+    {
+      "id": 16,
+      "name": "Navigator (NAV): Individuals and Families",
+      "title": "Navigator (NAV): Individuals and Families",
+      "key": "NAV_INDIVIDUALS"
+    },
+    {
+      "id": 6,
+      "name": "Navigator (NAV)",
+      "title": "Navigator (NAV)",
+      "key": "NAV"
+    },
+    {
+      "id": 17,
+      "name": "Navigator (NAV): SHOP",
+      "title": "Navigator (NAV): SHOP",
+      "key": "NAV_SHOP"
+    },
+    {
+      "id": 18,
+      "name": "In-person Assister (IPA): Individuals and Families",
+      "title": "In-person Assister (IPA): Individuals and Families",
+      "key": "IPA_INDIVIDUALS"
+    },
+    {
+      "id": 4,
+      "name": "In-person Assister (IPA)",
+      "title": "In-person Assister (IPA)",
+      "key": "IPA"
+    },
+    {
+      "id": 19,
+      "name": "In-person Assister (IPA): SHOP",
+      "title": "In-person Assister (IPA): SHOP",
+      "key": "IPA_SHOP"
+    }
+  ],
+  "address": {
+    "city": "Arlington,",
+    "state": "VA",
+    "zip": "22205",
+    "statewideService": false,
+    "comment": null,
+    "hide": false,
+    "visibility": "HIDE",
+    "accessibleLocation": true,
+    "walkIns": false,
+    "inPersonAssistance": true,
+    "geolocation": {
+      "latitude": 38.882442,
+      "longitude": -77.139687
+    },
+    "published": true,
+    "street": ["1704 N George Mason Dr"]
+  },
+  "hours": {},
+  "phoneNumbers": [],
+  "emailAddresses": [],
+  "websites": [],
+  "languages": ["Spanish","Korean", "English","Interpretation services available for other languages"],
+  "accessibilityServices": [],
+  "parent": {
+    "id": 180502,
+    "name": "Acronym Test Organization two",
+    "acronym": ")))))!!!!!!",
+    "published": false
+  },
+  "additionalInformation": "",
+  "published": true
+}}

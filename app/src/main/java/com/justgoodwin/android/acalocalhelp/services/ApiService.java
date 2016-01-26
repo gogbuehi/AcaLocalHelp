@@ -9,7 +9,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.justgoodwin.android.acalocalhelp.models.AcaProvider;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
@@ -48,7 +51,14 @@ public class ApiService extends IntentService {
 
         @Override
         public void onResponse(JSONObject response) {
-            Log.d("ACALocalHelp","RESPONSE RECEIVED: " + response.toString());
+            Log.d("ACALocalHelp", "RESPONSE RECEIVED: " + response.toString());
+            try {
+                JSONArray results = response.getJSONArray("results");
+                AcaProvider[] providers = AcaProvider.processJsonArray(results);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
         }
     }
 
