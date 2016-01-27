@@ -3,10 +3,12 @@ package com.justgoodwin.android.acalocalhelp.models;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.Serializable;
+
 /**
  * Created by Goodwin on 1/25/16.
  */
-public class JsonOrm {
+public class JsonOrm implements Serializable {
     protected JSONObject json;
 
     public JsonOrm(JSONObject json) {

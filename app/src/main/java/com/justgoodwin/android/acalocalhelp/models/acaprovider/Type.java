@@ -17,10 +17,10 @@ public class Type extends JsonOrm {
 
     public Type(JSONObject json) {
         super(json);
-        id = integer("id");
-        name = string("name");
-        title = string("title");
-        key = string("key");
+        setId(integer("id"));
+        setName(string("name"));
+        setTitle(string("title"));
+        setKey(string("key"));
     }
 
     public static Type[] processJsonArray(JSONArray jsonArray) throws JSONException {

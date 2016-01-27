@@ -1,0 +1,107 @@
+package com.gogbuehi.android.photometa.views;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import android.app.ListActivity;
+import android.content.Intent;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
+import android.widget.TextView;
+
+import com.gogbuehi.android.photometa.R;
+import com.gogbuehi.android.photometa.SharedConfig;
+import com.gogbuehi.android.photometa.data.MarkerRecord.MarkerRecordColumns;
+import com.gogbuehi.android.photometa.managers.ConfigurationManager;
+import com.gogbuehi.android.photometa.managers.MarkerManager;
+import com.gogbuehi.android.photometa.data.Marker;
+
+public class MarkerRecordsActivity extends ListActivity {
+	protected ConfigurationManager mConfManager;
+	private MarkerManager mMarkerManager;
+	private ListView mListView;
+	private Cursor mCursor;
+	private Marker[] mMarkerArray;
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		mListView = getListView();
+        mConfManager = new ConfigurationManager(this);
+	}
+
+	public void onResume() {
+		super.onResume();
+		if (mMarkerManager == null) {
+			mMarkerManager = new MarkerManager(this);
+		}
+		mCursor = mMarkerManager.getSeveralMarkers();
+		mMarkerArray = cursorToArray(mCursor);
+		SimpleCursorAdapter adapter = new SimpleCursorAdapter(this,
+				R.layout.marker_record,
+				mCursor,
+				new String[] {MarkerRecordColumns.LATITUDE,MarkerRecordColumns.LONGITUDE, MarkerRecordColumns.DATE,MarkerRecordColumns.TITLE},
+				new int[] {R.id.marker_record_coordinates_latitude,R.id.marker_record_coordinates_longitude, R.id.marker_record_date, R.id.marker_record_title});
+		adapter.setViewBinder(new SimpleCursorAdapter.ViewBinder() {
+
+			public boolean setViewValue(View view, Cursor cursor, int columnIndex) {
+				int dateIndex = cursor.getColumnIndex(MarkerRecordColumns.DATE);
+				//int latitudeIndex = cursor.getColumnIndex(MarkerRecordColumns.LATITUDE);
+				if (columnIndex == dateIndex) {
+					Date d = new Date(cursor.getLong(dateIndex));
+					TextView dateText = (TextView)view;
+					SimpleDateFormat sdf = new SimpleDateFormat("yyyy MM dd HH:mm:ss");
+					dateText.setText(sdf.format(d));
+					return true;
+				}
+				return false;
+			}
+		});
+		mListView.setAdapter(adapter);
+	}
+
+	public void onStop() {
+		super.onStop();
+		mMarkerManager.closeDb();
+	}
+
+	public void onListItemClick(ListView l, View v, int position, long id) {
+		Log.d(SharedConfig.LOG_TAG,"Selected ID: " + id);
+		Marker marker = mMarkerArray[position];
+		Log.d(SharedConfig.LOG_TAG, marker.toString());
+
+		//Need to send info to FlickrGallery Page
+		//Intent flickrGalleryIntent = new Intent(this, FlickrGalleryActivity.class);
+		//flickrGalleryIntent.putExtra(SharedConfig.INTENT_EXTRA_FLICKR_GALLERY_DATE,marker.getDate());
+		//startActivity(flickrGalleryIntent);
+
+		Intent i = new Intent(this, XMarksTheSpot.class);
+		//mMarkerManager.setMarkerExtras(marker);
+		i.putExtra(SharedConfig.INTENT_EXTRA_SPOT_DISTANCE_ID, marker.getId());
+		startActivity(i);
+	}
+
+	private Marker[] cursorToArray(Cursor cursor) {
+		Marker[] markerArray;
+		int cursorLength;
+		if (cursor != null) {
+			Marker m;
+			cursorLength = cursor.getCount();
+			markerArray = new Marker[cursorLength];
+			cursor.moveToFirst();
+			int i = 0;
+			while(!cursor.isAfterLast()) {
+				m = new Marker(cursor);
+				markerArray[i] = m;
+				cursor.moveToNext();
+				i++;
+			}
+		} else {
+			markerArray = new Marker[0];
+		}
+		return markerArray;
+	}
+}

@@ -9,6 +9,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.justgoodwin.android.acalocalhelp.activities.DisplayLocationActivity;
 import com.justgoodwin.android.acalocalhelp.models.AcaProvider;
 
 import org.json.JSONArray;
@@ -55,6 +56,11 @@ public class ApiService extends IntentService {
             try {
                 JSONArray results = response.getJSONArray("results");
                 AcaProvider[] providers = AcaProvider.processJsonArray(results);
+                Intent i = new Intent(getApplicationContext(), DisplayLocationActivity.class);
+                i.setAction(DisplayLocationActivity.INTENT_RESULTS_RESPONSE);
+                i.putExtra("results",providers);
+                getApplication().startActivity(i);
+
             } catch (JSONException e) {
                 e.printStackTrace();
             }
