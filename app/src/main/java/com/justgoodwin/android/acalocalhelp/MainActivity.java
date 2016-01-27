@@ -8,12 +8,12 @@ import android.location.Geocoder;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.justgoodwin.android.acalocalhelp.activities.DisplayLocationActivity;
 import com.justgoodwin.android.acalocalhelp.services.ApiService;
 
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //hideSoftKeyboard(thisActivity);
+                hideSoftKeyboard(getParent());
                 String searchText = addressSearch.getText().toString();
                 Address location;
 
@@ -77,5 +77,10 @@ public class MainActivity extends Activity {
         searchButton.setOnClickListener(listener);
 
 
+    }
+
+    public static void hideSoftKeyboard(Activity activity) {
+        InputMethodManager inputMethodManager = (InputMethodManager)  activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
     }
 }
