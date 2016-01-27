@@ -19,7 +19,8 @@ public class Hours extends JsonOrm {
         String key;
         days = new DayOfTheWeek[json.length()];
         int i = 0;
-        while((key = keys.next()) != null) {
+        while(keys.hasNext()) {
+            key = keys.next();
             days[i] = new DayOfTheWeek(getJson(),key);
             i++;
         }

@@ -161,6 +161,9 @@ public class Address extends JsonOrm{
         }
 
         public static VisibilityState get(String state) {
+            if(state == null) {
+                return DISPLAY;
+            }
             if(state.equals("DISPLAY")) {
                 return DISPLAY;
             } else if (state.equals("PARTIAL")) {
@@ -168,7 +171,7 @@ public class Address extends JsonOrm{
             } else if (state.equals("HIDE")) {
                 return HIDE;
             }
-            return null;
+            return DISPLAY;
         }
     }
 }

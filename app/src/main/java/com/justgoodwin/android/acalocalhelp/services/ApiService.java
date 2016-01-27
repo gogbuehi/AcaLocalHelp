@@ -59,7 +59,7 @@ public class ApiService extends IntentService {
                 Intent i = new Intent(getApplicationContext(), DisplayLocationActivity.class);
                 i.setAction(DisplayLocationActivity.INTENT_RESULTS_RESPONSE);
                 i.putExtra("results",providers);
-                getApplication().startActivity(i);
+                //getApplication().startActivity(i);
 
             } catch (JSONException e) {
                 e.printStackTrace();
