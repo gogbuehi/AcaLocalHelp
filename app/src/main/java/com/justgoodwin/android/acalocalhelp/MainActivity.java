@@ -74,6 +74,8 @@ public class MainActivity extends Activity {
                         invalidSearchToast.show();
                     }
                 }
+                Intent i = new Intent(getApplicationContext(), DisplayLocationActivity.class);
+                startActivity(i);
 
             }
         };
