@@ -66,6 +66,8 @@ public class MainActivity extends Activity {
                         );
 
                         Intent apiServiceIntent = new Intent(getApplicationContext(), ApiService.class);
+                        apiServiceIntent.putExtra("latitude",location.getLatitude());
+                        apiServiceIntent.putExtra("longitude",location.getLongitude());
                         startService(apiServiceIntent);
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -73,8 +75,6 @@ public class MainActivity extends Activity {
                     }
                 }
 
-                Intent DisplayLocationIntent = new Intent(getApplicationContext(), DisplayLocationActivity.class);
-                startActivity(DisplayLocationIntent);
             }
         };
 

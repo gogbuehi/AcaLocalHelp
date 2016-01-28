@@ -25,7 +25,7 @@ public class ApiService extends IntentService {
     protected int PUT = 2;
     protected int DELETE = 3;
 
-    protected String endPoint = "https://localhelp.healthcare.gov/api/v1/resources/agents/all/38.8845126_-77.0938583.json?lat=38.8845126&lng=-77.0938583&medicaidState=VA&radius=50&order=proximity&limit=none&offset=0";
+    protected String endPoint = "https://localhelp.healthcare.gov/api/v1/resources/agents/all/<1>_<2>.json?lat=<1>&lng=<2>&medicaidState=VA&radius=20&order=proximity&limit=none&offset=0";
     /**
      * Creates an IntentService.  Invoked by your subclass's constructor.
      */
@@ -39,8 +39,9 @@ public class ApiService extends IntentService {
         RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
         JsonObjectRequest request;
         JSONObject params = null;
+        String properEndpoint = endPoint.replaceAll("<1>",""+intent.getDoubleExtra("latitude",38.8845126)).replace("<2>",""+intent.getDoubleExtra("longitude",-77.0938583));
         request = new JsonObjectRequest(GET,
-                endPoint,
+                properEndpoint,
                 params,
                 new ResponseListener(),
                 new ErrorListener());
