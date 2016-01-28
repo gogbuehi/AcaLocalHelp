@@ -14,7 +14,9 @@ public class Type extends JsonOrm {
     protected String name;
     protected String title;
     protected String key;
-
+    public Type() {
+        super();
+    }
     public Type(JSONObject json) {
         super(json);
         setId(integer("id"));

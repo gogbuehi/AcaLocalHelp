@@ -12,7 +12,9 @@ import java.util.Iterator;
  */
 public class Hours extends JsonOrm {
     protected DayOfTheWeek[] days;
-
+    public Hours() {
+        super();
+    }
     public Hours(JSONObject json) {
         super(json);
         Iterator<String> keys = json.keys();
@@ -38,7 +40,9 @@ public class Hours extends JsonOrm {
     public class DayOfTheWeek extends JsonOrm {
         protected String key;
         protected HourSet[] hours;
-
+        public DayOfTheWeek() {
+            super();
+        }
         public DayOfTheWeek(JSONObject json, String key) {
             super(json);
             setKey(key);
@@ -73,7 +77,9 @@ public class Hours extends JsonOrm {
             protected String endTime;
             protected String dayOfWeek;
             protected boolean appointmentRequired;
-
+            public HourSet() {
+                super();
+            }
             public HourSet(JSONObject json) {
                 super(json);
                 setStartTime(string("startTime"));

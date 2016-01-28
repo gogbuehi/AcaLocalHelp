@@ -12,7 +12,9 @@ public class Parent extends JsonOrm {
     protected String name;
     protected String acronym;
     protected boolean published;
-
+    public Parent() {
+        super();
+    }
     public Parent(JSONObject json) {
         super(json);
         setId(integer("id"));

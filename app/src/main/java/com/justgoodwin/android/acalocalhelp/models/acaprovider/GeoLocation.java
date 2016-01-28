@@ -11,6 +11,8 @@ public class GeoLocation extends JsonOrm {
     protected float latitude;
     protected float longitude;
 
+    public GeoLocation() {super();}
+
     public GeoLocation(JSONObject json) {
         super(json);
         latitude = floatingPoint("latitude");

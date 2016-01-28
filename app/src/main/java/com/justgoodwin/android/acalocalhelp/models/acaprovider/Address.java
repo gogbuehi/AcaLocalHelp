@@ -21,7 +21,9 @@ public class Address extends JsonOrm{
     protected GeoLocation geoLocation;
     protected boolean published;
     protected String[] street;
-
+    public Address() {
+        super();
+    }
     public Address(JSONObject json) {
         super(json);
         setCity(string("city"));

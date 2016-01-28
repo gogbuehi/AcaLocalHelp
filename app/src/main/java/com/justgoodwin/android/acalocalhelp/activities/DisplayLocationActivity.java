@@ -44,6 +44,10 @@ public class DisplayLocationActivity extends ListActivity {
             //Deserialize data
             AcaProvider[] results = (AcaProvider[])intent.getSerializableExtra("results");
             Log.d("ACALocalHelp", "Results: " + results.length);
+            if(results.length > 0) {
+                Log.d("ACALocalHelp", "First Result Name: " + results[0].getName());
+            }
+
 
         }
 

@@ -11,6 +11,9 @@ import java.io.Serializable;
 public class JsonOrm implements Serializable {
     protected transient JSONObject json =null;
 
+    public JsonOrm() {
+        this.json = null;
+    }
     public JsonOrm(JSONObject json) {
         this.json = json;
     }

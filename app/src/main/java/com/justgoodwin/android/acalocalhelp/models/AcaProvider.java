@@ -28,7 +28,9 @@ public class AcaProvider extends JsonOrm{
     protected Parent parent;
     protected String additionalInformation;
     protected boolean published;
-
+    public AcaProvider() {
+        super();
+    }
     public AcaProvider(JSONObject json) throws JSONException {
         super(json);
         setId(integer("id"));
