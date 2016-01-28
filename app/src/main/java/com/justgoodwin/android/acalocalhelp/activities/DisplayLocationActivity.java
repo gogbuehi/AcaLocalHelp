@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.view.Gravity;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 
 /**
@@ -23,8 +23,7 @@ public class DisplayLocationActivity extends ListActivity {
 
         //Show progress bar
         ProgressBar progressBar = new ProgressBar(this);
-        progressBar.setLayoutParams(new AbsListView.LayoutParams(AbsListView.LayoutParams.WRAP_CONTENT,
-                AbsListView.LayoutParams.WRAP_CONTENT, Gravity.CENTER));
+        progressBar.setLayoutParams(new ListView.LayoutParams(ListView.LayoutParams.MATCH_PARENT, ListView.LayoutParams.MATCH_PARENT, Gravity.CENTER));
         progressBar.setIndeterminate(true);
         getListView().setEmptyView(progressBar);
 
@@ -37,9 +36,9 @@ public class DisplayLocationActivity extends ListActivity {
         setListAdapter(adapter);
 
         Intent intent = getIntent();
-        if(intent.getAction().equals(INTENT_RESULTS_RESPONSE)) {
-            //Deserialize data
-        }
+//        if(intent.getAction().equals(INTENT_RESULTS_RESPONSE)) {
+//            //Deserialize data
+//        }
 
     }
 }
