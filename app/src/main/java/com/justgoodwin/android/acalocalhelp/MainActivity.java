@@ -18,6 +18,8 @@ import com.justgoodwin.android.acalocalhelp.activities.DisplayLocationActivity;
 import com.justgoodwin.android.acalocalhelp.services.ApiService;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 /**
@@ -57,17 +59,20 @@ public class MainActivity extends Activity {
                 }else{
                     try {
                         //FIXME: Needs safetey catch if search is invalid
-                        location = geocoder.getFromLocationName(searchText.toString(), 1).get(0);
-
-                        resultTextView.setText(
-                                "Latitude: " + location.getLatitude() + "\n" +
-                                        "Longitude: " + location.getLongitude() + "\n" +
-                                        "State: " + location.getAdminArea()
-                        );
-
+                        List<Address> address = geocoder.getFromLocationName(searchText.toString(), 1);
+                        double latitude, longitude;
                         Intent apiServiceIntent = new Intent(getApplicationContext(), ApiService.class);
-                        apiServiceIntent.putExtra("latitude",location.getLatitude());
-                        apiServiceIntent.putExtra("longitude",location.getLongitude());
+                        if(address.size()!= 0) {
+                            location = geocoder.getFromLocationName(searchText.toString(), 1).get(0);
+
+                            resultTextView.setText(
+                                    "Latitude: " + location.getLatitude() + "\n" +
+                                            "Longitude: " + location.getLongitude() + "\n" +
+                                            "State: " + location.getAdminArea()
+                            );
+                            apiServiceIntent.putExtra("latitude",location.getLatitude());
+                            apiServiceIntent.putExtra("longitude", location.getLongitude());
+                        }
                         startService(apiServiceIntent);
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -87,6 +92,9 @@ public class MainActivity extends Activity {
 
     public static void hideSoftKeyboard(Activity activity) {
         InputMethodManager inputMethodManager = (InputMethodManager)  activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
+        if(inputMethodManager.isAcceptingText()) {
+            inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
+        }
+
     }
 }
