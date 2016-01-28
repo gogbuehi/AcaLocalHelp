@@ -28,8 +28,10 @@ public class MainActivity extends Activity {
     private Button searchButton;
     public Geocoder geocoder;
     private Toast invalidSearchToast;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final Activity self = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         addressSearch = (EditText) this.findViewById(R.id.addressSearch);
@@ -45,7 +47,7 @@ public class MainActivity extends Activity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                hideSoftKeyboard(getParent());
+                hideSoftKeyboard(self);
                 String searchText = addressSearch.getText().toString();
                 Address location;
 
