@@ -22,7 +22,7 @@ import com.justgoodwin.android.acalocalhelp.models.AcaProvider;
  * Created by Goodwin on 1/24/16.
  */
 public class DisplayLocationActivity extends ListActivity {
-    public final static String INTENT_RESULTS_RESPONSE="RESULTS_RESPONSE";
+    public final static String INTENT_RESULTS_RESPONSE = "RESULTS_RESPONSE";
     private String url = "https://localhelp.healthcare.gov/api/v1/resources/agents/all/38.8845126_-77.0938583.json?lat=38.8845126&lng=-77.0938583&medicaidState=VA&radius=50&order=proximity&limit=none&offset=0";
     SimpleCursorAdapter adapter;
 
@@ -41,13 +41,13 @@ public class DisplayLocationActivity extends ListActivity {
 
         Intent intent = getIntent();
         Log.d("AcaLocalHelp", intent.getAction() == null ? "NULL" : intent.getAction());
-        if(INTENT_RESULTS_RESPONSE.equals(intent.getAction())) {
+        if (INTENT_RESULTS_RESPONSE.equals(intent.getAction())) {
             //Deserialize data
-            AcaProvider[] results = (AcaProvider[])intent.getSerializableExtra("results");
+            AcaProvider[] results = (AcaProvider[]) intent.getSerializableExtra("results");
             Log.d("ACALocalHelp", "Results: " + results.length);
-            if(results.length > 0) {
+            if (results.length > 0) {
                 Log.d("ACALocalHelp", "First Result Name: " + results[0].getName());
-                ProviderAdapter adapter = new ProviderAdapter(this,results);
+                ProviderAdapter adapter = new ProviderAdapter(this, results);
                 getListView().setAdapter(adapter);
             }
 
@@ -59,7 +59,7 @@ public class DisplayLocationActivity extends ListActivity {
     class ProviderAdapter extends ArrayAdapter<AcaProvider> {
 
         public ProviderAdapter(Context context, AcaProvider[] objects) {
-            super(context,0, objects);
+            super(context, 0, objects);
         }
 
         @Override
@@ -68,8 +68,13 @@ public class DisplayLocationActivity extends ListActivity {
             if (convertView == null) {
                 convertView = LayoutInflater.from(getContext()).inflate(R.layout.provider, parent, false);
             }
-            TextView nameView = (TextView)convertView.findViewById(R.id.provider_name);
-            nameView.setText(provider.getName());
+            TextView nameView = (TextView) convertView.findViewById(R.id.provider_name);
+            if (provider == null) {
+                nameView.setText("NONAME");
+            } else {
+                nameView.setText(provider.getName());
+            }
+
             return convertView;
         }
     }

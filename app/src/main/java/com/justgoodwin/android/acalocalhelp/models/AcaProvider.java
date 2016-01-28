@@ -188,8 +188,12 @@ public class AcaProvider extends JsonOrm{
     }
 
     public static AcaProvider[] processJsonArray(JSONArray array) throws JSONException {
-        AcaProvider[] result = new AcaProvider[array.length()];
-        for(int i = 0; i < array.length(); i++) {
+        return processJsonArray(array, 30);
+    }
+
+    public static AcaProvider[] processJsonArray(JSONArray array, int max) throws JSONException {
+        AcaProvider[] result = new AcaProvider[array.length() > max ? max : array.length()];
+        for(int i = 0; i < array.length() && i < max; i++) {
             result[i] = new AcaProvider(array.optJSONObject(i));
         }
         return result;
