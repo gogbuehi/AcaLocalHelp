@@ -58,8 +58,9 @@ public class ApiService extends IntentService {
                 AcaProvider[] providers = AcaProvider.processJsonArray(results);
                 Intent i = new Intent(getApplicationContext(), DisplayLocationActivity.class);
                 i.setAction(DisplayLocationActivity.INTENT_RESULTS_RESPONSE);
-                i.putExtra("results",providers);
-                //getApplication().startActivity(i);
+                i.putExtra("results", providers);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                getApplication().startActivity(i);
 
             } catch (JSONException e) {
                 e.printStackTrace();

@@ -4,10 +4,13 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.SimpleCursorAdapter;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+
+import com.justgoodwin.android.acalocalhelp.models.AcaProvider;
 
 /**
  * Created by Goodwin on 1/24/16.
@@ -36,9 +39,13 @@ public class DisplayLocationActivity extends ListActivity {
         setListAdapter(adapter);
 
         Intent intent = getIntent();
-//        if(intent.getAction().equals(INTENT_RESULTS_RESPONSE)) {
-//            //Deserialize data
-//        }
+        Log.d("AcaLocalHelp", intent.getAction() == null ? "NULL" : intent.getAction());
+        if(INTENT_RESULTS_RESPONSE.equals(intent.getAction())) {
+            //Deserialize data
+            AcaProvider[] results = (AcaProvider[])intent.getSerializableExtra("results");
+            Log.d("ACALocalHelp", "Results: " + results.length);
+
+        }
 
     }
 }

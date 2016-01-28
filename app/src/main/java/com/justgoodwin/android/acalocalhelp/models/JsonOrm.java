@@ -9,7 +9,7 @@ import java.io.Serializable;
  * Created by Goodwin on 1/25/16.
  */
 public class JsonOrm implements Serializable {
-    protected JSONObject json;
+    protected transient JSONObject json =null;
 
     public JsonOrm(JSONObject json) {
         this.json = json;
