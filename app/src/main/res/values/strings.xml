@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AcaLocalHelp</string>
+    <string name="search_hint">e.g., \'33109\' or \'Austin, TX\'</string>
+    <string name="intro_description">People and groups in your community can help you apply, pick a plan, and enroll – all for free. Most are available to meet in-person.</string>
+    <string name="intro_title">Find someone nearby to help you apply.</string>
+    <string name="search_button_value">SEARCH</string>
+    <string name="intro_search_label">Enter your ZIP code or city and state</string>
 </resources>

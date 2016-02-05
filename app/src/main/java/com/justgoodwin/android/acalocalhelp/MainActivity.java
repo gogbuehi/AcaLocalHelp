@@ -11,14 +11,12 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.justgoodwin.android.acalocalhelp.activities.DisplayLocationActivity;
 import com.justgoodwin.android.acalocalhelp.services.ApiService;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -27,7 +25,6 @@ import java.util.Locale;
  */
 public class MainActivity extends Activity {
     private EditText addressSearch;
-    private TextView resultTextView;
     private Button searchButton;
     public Geocoder geocoder;
     private Toast invalidSearchToast;
@@ -40,7 +37,6 @@ public class MainActivity extends Activity {
         addressSearch = (EditText) this.findViewById(R.id.addressSearch);
         searchButton = (Button) this.findViewById(R.id.searchButton);
         Log.d("ACA","Button is: " + (searchButton == null ? "NULL": "NOT NULL"));
-        resultTextView = (TextView) this.findViewById(R.id.resultTextView);
         geocoder = new Geocoder(this, Locale.getDefault());
         Context context = getApplicationContext();
         CharSequence text = "You must enter a valid City and State or Zip code.";
@@ -65,11 +61,6 @@ public class MainActivity extends Activity {
                         if(address.size()!= 0) {
                             location = geocoder.getFromLocationName(searchText.toString(), 1).get(0);
 
-                            resultTextView.setText(
-                                    "Latitude: " + location.getLatitude() + "\n" +
-                                            "Longitude: " + location.getLongitude() + "\n" +
-                                            "State: " + location.getAdminArea()
-                            );
                             apiServiceIntent.putExtra("latitude",location.getLatitude());
                             apiServiceIntent.putExtra("longitude", location.getLongitude());
                         }
