@@ -5,4 +5,7 @@
     <string name="intro_title">Find someone nearby to help you apply.</string>
     <string name="search_button_value">SEARCH</string>
     <string name="intro_search_label">Enter your ZIP code or city and state</string>
+    <string name="bitter_regular">fonts/bitter_regular.ttf</string>
+    <string name="open_sans_regular">fonts/open_sans_regular.ttf</string>
+    <string name="open_sans_bold">fonts/open_sans_bold.ttf</string>
 </resources>
